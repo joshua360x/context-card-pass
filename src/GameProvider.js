@@ -59,9 +59,9 @@ export default function GameProvider({ children }) {
   };
 
   return (
-    // <CardGameContext.Provider value={gameStateAndSettersForCards}>
-    //   {children}
-    // </CardGameContext.Provider>
+    <CardGameContext.Provider value={gameStateAndSettersForCards}>
+      {children}
+    </CardGameContext.Provider>
   );
 }
 

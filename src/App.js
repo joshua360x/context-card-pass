@@ -41,7 +41,7 @@ function App() {
   //   setSelectedCard(null);
   // }
 
-  // const { to, playerOneHand, setFrom, selectedCard, setTo, setSelectedCard, playerTwoHand, playerThreeHand, deck, passCard, from } = useGameContext();
+  const { to, playerOneHand, setFrom, selectedCard, setTo, setSelectedCard, playerTwoHand, playerThreeHand, deck, passCard, from } = useGameContext();
 
   return (
     <div className="App">
